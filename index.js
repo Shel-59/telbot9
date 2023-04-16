@@ -107,7 +107,7 @@ bot.on('message', msg => {
 
 
     if (text === 'Алгебра') {
-        bot.sendMessage(userId, 'Выбирай нужную шпаргалку по алгбре:', algebraOptions);
+        bot.sendMessage(userId, 'Выбирай нужную шпаргалку по алгебре:', algebraOptions);
     }
     if (text === 'Геометрия') {
         bot.sendMessage(userId, 'Выбирай нужную шпаргалку по геометрии:', geometryOptions);
